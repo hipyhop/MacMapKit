@@ -64,19 +64,6 @@
 		5FBAF77511F14518004753A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6EF17D11F13F690077E84F /* MapKit.framework */; };
 		5FBAF7A711F147EF004753A9 /* NSColor+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7A511F147EF004753A9 /* NSColor+Additions.h */; };
 		5FBAF7A811F147EF004753A9 /* NSColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7A611F147EF004753A9 /* NSColor+Additions.m */; };
-		5FBAF7B811F1482E004753A9 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7AB11F1482E004753A9 /* JSON.h */; };
-		5FBAF7B911F1482E004753A9 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7AC11F1482E004753A9 /* NSObject+SBJSON.h */; };
-		5FBAF7BA11F1482E004753A9 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7AD11F1482E004753A9 /* NSObject+SBJSON.m */; };
-		5FBAF7BB11F1482E004753A9 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7AE11F1482E004753A9 /* NSString+SBJSON.h */; };
-		5FBAF7BC11F1482E004753A9 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7AF11F1482E004753A9 /* NSString+SBJSON.m */; };
-		5FBAF7BD11F1482E004753A9 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7B011F1482E004753A9 /* SBJSON.h */; };
-		5FBAF7BE11F1482E004753A9 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7B111F1482E004753A9 /* SBJSON.m */; };
-		5FBAF7BF11F1482E004753A9 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7B211F1482E004753A9 /* SBJsonBase.h */; };
-		5FBAF7C011F1482E004753A9 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7B311F1482E004753A9 /* SBJsonBase.m */; };
-		5FBAF7C111F1482E004753A9 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7B411F1482E004753A9 /* SBJsonParser.h */; };
-		5FBAF7C211F1482E004753A9 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7B511F1482E004753A9 /* SBJsonParser.m */; };
-		5FBAF7C311F1482E004753A9 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7B611F1482E004753A9 /* SBJsonWriter.h */; };
-		5FBAF7C411F1482E004753A9 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7B711F1482E004753A9 /* SBJsonWriter.m */; };
 		5FBAF7CF11F1486D004753A9 /* MKMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7C511F1486D004753A9 /* MKMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FBAF7D011F1486D004753A9 /* MKMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAF7C611F1486D004753A9 /* MKMapView.m */; };
 		5FBAF7D111F1486D004753A9 /* MKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBAF7C711F1486D004753A9 /* MKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -115,6 +102,9 @@
 		5FE8314C12A60BFF00728ECE /* MKMapViewAttributeInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8314B12A60BFF00728ECE /* MKMapViewAttributeInspector.xib */; };
 		92AA46ED16FB802200A18D04 /* MKGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AA46EC16FB802200A18D04 /* MKGeometry.m */; };
 		92AA46EE16FB802200A18D04 /* MKGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AA46EC16FB802200A18D04 /* MKGeometry.m */; };
+		92B2A52517064E1E0006FBDF /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B2A52317064E1E0006FBDF /* NSString+Additions.h */; };
+		92B2A52617064E1E0006FBDF /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B2A52417064E1E0006FBDF /* NSString+Additions.m */; };
+		92B2A52717064E1E0006FBDF /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B2A52417064E1E0006FBDF /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,19 +211,6 @@
 		5FB743B311FE74B100AB2079 /* MapView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapView.png; sourceTree = "<group>"; };
 		5FBAF7A511F147EF004753A9 /* NSColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Additions.h"; sourceTree = "<group>"; };
 		5FBAF7A611F147EF004753A9 /* NSColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Additions.m"; sourceTree = "<group>"; };
-		5FBAF7AB11F1482E004753A9 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		5FBAF7AC11F1482E004753A9 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		5FBAF7AD11F1482E004753A9 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
-		5FBAF7AE11F1482E004753A9 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		5FBAF7AF11F1482E004753A9 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		5FBAF7B011F1482E004753A9 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
-		5FBAF7B111F1482E004753A9 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
-		5FBAF7B211F1482E004753A9 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		5FBAF7B311F1482E004753A9 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
-		5FBAF7B411F1482E004753A9 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		5FBAF7B511F1482E004753A9 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		5FBAF7B611F1482E004753A9 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		5FBAF7B711F1482E004753A9 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		5FBAF7C511F1486D004753A9 /* MKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMapView.h; sourceTree = "<group>"; };
 		5FBAF7C611F1486D004753A9 /* MKMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMapView.m; sourceTree = "<group>"; };
 		5FBAF7C711F1486D004753A9 /* MKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTypes.h; sourceTree = "<group>"; };
@@ -271,6 +248,8 @@
 		5FE8314712A60AF600728ECE /* MapKitPluginLibrary.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapKitPluginLibrary.xib; sourceTree = "<group>"; };
 		5FE8314B12A60BFF00728ECE /* MKMapViewAttributeInspector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MKMapViewAttributeInspector.xib; sourceTree = "<group>"; };
 		92AA46EC16FB802200A18D04 /* MKGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGeometry.m; sourceTree = "<group>"; };
+		92B2A52317064E1E0006FBDF /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		92B2A52417064E1E0006FBDF /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -365,7 +344,6 @@
 				5FB7411611FB507900AB2079 /* Geocoding */,
 				5F84F20B11F3E9C1008D3A32 /* Annotations And Overlays */,
 				5FBAF7A411F147DC004753A9 /* Categories */,
-				5FBAF7A911F147FF004753A9 /* Third Party */,
 				5FBAF7C511F1486D004753A9 /* MKMapView.h */,
 				5FBAF7C611F1486D004753A9 /* MKMapView.m */,
 				5F96B22313BAB9F4000A1E4A /* MKMapView+Private.h */,
@@ -563,36 +541,10 @@
 			children = (
 				5FBAF7A511F147EF004753A9 /* NSColor+Additions.h */,
 				5FBAF7A611F147EF004753A9 /* NSColor+Additions.m */,
+				92B2A52317064E1E0006FBDF /* NSString+Additions.h */,
+				92B2A52417064E1E0006FBDF /* NSString+Additions.m */,
 			);
 			name = Categories;
-			sourceTree = "<group>";
-		};
-		5FBAF7A911F147FF004753A9 /* Third Party */ = {
-			isa = PBXGroup;
-			children = (
-				5FBAF7AA11F14806004753A9 /* SBJSON */,
-			);
-			path = "Third Party";
-			sourceTree = "<group>";
-		};
-		5FBAF7AA11F14806004753A9 /* SBJSON */ = {
-			isa = PBXGroup;
-			children = (
-				5FBAF7AB11F1482E004753A9 /* JSON.h */,
-				5FBAF7AC11F1482E004753A9 /* NSObject+SBJSON.h */,
-				5FBAF7AD11F1482E004753A9 /* NSObject+SBJSON.m */,
-				5FBAF7AE11F1482E004753A9 /* NSString+SBJSON.h */,
-				5FBAF7AF11F1482E004753A9 /* NSString+SBJSON.m */,
-				5FBAF7B011F1482E004753A9 /* SBJSON.h */,
-				5FBAF7B111F1482E004753A9 /* SBJSON.m */,
-				5FBAF7B211F1482E004753A9 /* SBJsonBase.h */,
-				5FBAF7B311F1482E004753A9 /* SBJsonBase.m */,
-				5FBAF7B411F1482E004753A9 /* SBJsonParser.h */,
-				5FBAF7B511F1482E004753A9 /* SBJsonParser.m */,
-				5FBAF7B611F1482E004753A9 /* SBJsonWriter.h */,
-				5FBAF7B711F1482E004753A9 /* SBJsonWriter.m */,
-			);
-			path = SBJSON;
 			sourceTree = "<group>";
 		};
 		5FBAF7D911F1487C004753A9 /* Overlays */ = {
@@ -636,13 +588,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBAF7A711F147EF004753A9 /* NSColor+Additions.h in Headers */,
-				5FBAF7B811F1482E004753A9 /* JSON.h in Headers */,
-				5FBAF7B911F1482E004753A9 /* NSObject+SBJSON.h in Headers */,
-				5FBAF7BB11F1482E004753A9 /* NSString+SBJSON.h in Headers */,
-				5FBAF7BD11F1482E004753A9 /* SBJSON.h in Headers */,
-				5FBAF7BF11F1482E004753A9 /* SBJsonBase.h in Headers */,
-				5FBAF7C111F1482E004753A9 /* SBJsonParser.h in Headers */,
-				5FBAF7C311F1482E004753A9 /* SBJsonWriter.h in Headers */,
 				5FBAF7CF11F1486D004753A9 /* MKMapView.h in Headers */,
 				5FBAF7D111F1486D004753A9 /* MKTypes.h in Headers */,
 				5FBAF7D211F1486D004753A9 /* MKGeometry.h in Headers */,
@@ -674,6 +619,7 @@
 				5F39D6FE12B5AB50001B32CD /* MKWebView.h in Headers */,
 				5F9CE3DA12D15F98006354EF /* MKGeocoder.h in Headers */,
 				5F96B22513BAB9F4000A1E4A /* MKMapView+Private.h in Headers */,
+				92B2A52517064E1E0006FBDF /* NSString+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,12 +768,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBAF7A811F147EF004753A9 /* NSColor+Additions.m in Sources */,
-				5FBAF7BA11F1482E004753A9 /* NSObject+SBJSON.m in Sources */,
-				5FBAF7BC11F1482E004753A9 /* NSString+SBJSON.m in Sources */,
-				5FBAF7BE11F1482E004753A9 /* SBJSON.m in Sources */,
-				5FBAF7C011F1482E004753A9 /* SBJsonBase.m in Sources */,
-				5FBAF7C211F1482E004753A9 /* SBJsonParser.m in Sources */,
-				5FBAF7C411F1482E004753A9 /* SBJsonWriter.m in Sources */,
 				5FBAF7D011F1486D004753A9 /* MKMapView.m in Sources */,
 				5FBAF7D511F1486D004753A9 /* MKUserLocation.m in Sources */,
 				5FBAF7D711F1486D004753A9 /* MKUserLocation+Private.m in Sources */,
@@ -855,6 +795,7 @@
 				5F9CE3DB12D15F98006354EF /* MKGeocoder.m in Sources */,
 				5F96B22613BAB9F4000A1E4A /* MKMapView+Private.m in Sources */,
 				92AA46ED16FB802200A18D04 /* MKGeometry.m in Sources */,
+				92B2A52617064E1E0006FBDF /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,6 +807,7 @@
 				5FB7438811FE70AC00AB2079 /* MKMapViewAttributeInspector.m in Sources */,
 				5F19A03E1208F6DE0083FE72 /* MKMapView+MapKitPlugin.m in Sources */,
 				92AA46EE16FB802200A18D04 /* MKGeometry.m in Sources */,
+				92B2A52717064E1E0006FBDF /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

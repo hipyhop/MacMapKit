@@ -8,7 +8,6 @@
 
 #import "MKMapView.h"
 #import "MKMapView+Private.h"
-#import "JSON.h"
 #import <MapKit/MKUserLocation.h>
 #import "MKUserLocation+Private.h"
 #import <MapKit/MKCircleView.h>
@@ -20,7 +19,7 @@
 #import "MKMapView+DelegateWrappers.h"
 #import "MKMapView+WebViewIntegration.h"
 #import "MKWebView.h"
-
+#import "NSString+Additions.h"
 
 @implementation MKMapView
 
@@ -136,6 +135,11 @@
 {
     WebScriptObject *webScriptObject = [webView windowScriptObject];
     NSString *json = [webScriptObject evaluateWebScript:@"getRegion()"];
+	if (![json respondsToSelector:@selector(JSONValue)])
+	{
+		MKCoordinateRegion region; // Clang zeros all this out
+		return region;
+	}
     NSDictionary *regionDict = [json JSONValue];
     
     NSNumber *centerLatitude = [regionDict valueForKeyPath:@"center.latitude"];

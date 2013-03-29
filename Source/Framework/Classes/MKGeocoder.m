@@ -11,7 +11,6 @@
  */
 
 #import "MKGeocoder.h"
-#import "JSON.h"
 #import "MKPlacemark+Private.h"
 
 @interface MKGeocoder (WebViewIntegration)
