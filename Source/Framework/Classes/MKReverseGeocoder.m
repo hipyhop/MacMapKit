@@ -15,6 +15,7 @@
 
 #import "MKReverseGeocoder.h"
 #import "MKPlacemark+Private.h"
+#import "NSString+Additions.h"
 
 
 @interface MKReverseGeocoder (WebViewIntegration)

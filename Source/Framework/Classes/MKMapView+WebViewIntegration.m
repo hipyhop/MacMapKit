@@ -11,6 +11,8 @@
 #import "MKWebView.h"
 #import "MKMapView+Private.h"
 
+#import "NSString+Additions.h"
+
 // MKAnnotation has a readonly coordinate property, but draggable annotations
 // need the ability to set them.
 @protocol MKDraggableAnnotation <NSObject>

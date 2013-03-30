@@ -12,6 +12,7 @@
 
 #import "MKGeocoder.h"
 #import "MKPlacemark+Private.h"
+#import "NSString+Additions.h"
 
 @interface MKGeocoder (WebViewIntegration)
 
