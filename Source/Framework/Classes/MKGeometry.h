@@ -144,8 +144,9 @@ static inline NSString *MKStringFromMapSize(MKMapSize size) {
 static inline NSString *MKStringFromMapRect(MKMapRect rect) {
     return [NSString stringWithFormat:@"{%@, %@}", MKStringFromMapPoint(rect.origin), MKStringFromMapSize(rect.size)];
 }
-/*
+
 extern MKMapRect MKMapRectUnion(MKMapRect rect1, MKMapRect rect2);
+/*
 extern MKMapRect MKMapRectIntersection(MKMapRect rect1, MKMapRect rect2);
 extern MKMapRect MKMapRectInset(MKMapRect rect, double dx, double dy);
 extern MKMapRect MKMapRectOffset(MKMapRect rect, double dx, double dy);
