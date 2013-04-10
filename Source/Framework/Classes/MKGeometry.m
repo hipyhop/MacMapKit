@@ -57,4 +57,9 @@ extern MKMapRect MKMapRectUnion(MKMapRect rect1, MKMapRect rect2){
   return result;
 }
 
+extern MKCoordinateRegion MKCoordinateRegionForMapRect(MKMapRect rect){
+  return MKCoordinateRegionMake(CLLocationCoordinate2DMake(rect.origin.x + (rect.size.width/2), rect.origin.y + (rect.size.height/2)), MKCoordinateSpanMake(rect.size.width/2, rect.size.height/2));
+  
+}
+
 

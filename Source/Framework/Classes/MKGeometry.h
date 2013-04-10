@@ -156,8 +156,10 @@ extern BOOL MKMapRectContainsPoint(MKMapRect rect, MKMapPoint point);
 extern BOOL MKMapRectContainsRect(MKMapRect rect1, MKMapRect rect2);
 extern BOOL MKMapRectIntersectsRect(MKMapRect rect1, MKMapRect rect2);
 
+*/
 extern MKCoordinateRegion MKCoordinateRegionForMapRect(MKMapRect rect);
 
+/*
 extern BOOL MKMapRectSpans180thMeridian(MKMapRect rect);
 // For map rects that span the 180th meridian, this returns the portion of the rect
 // that lies outside of the world rect wrapped around to the other side of the
