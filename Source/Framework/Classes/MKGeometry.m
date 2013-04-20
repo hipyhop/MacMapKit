@@ -46,15 +46,13 @@ extern MKMapRect MKMapRectUnion(MKMapRect rect1, MKMapRect rect2){
     return rect2;
   }
   
-  MKMapRect result;
+  double min_x = fmin(rect1.origin.x, rect2.origin.x);
+  double min_y = fmin(rect1.origin.y, rect2.origin.y);
   
-  result.origin.x = fmin(rect1.origin.x, rect2.origin.x);
-  result.origin.y = fmin(rect1.origin.y, rect2.origin.y);
+  double max_x = fmax(rect1.origin.x, rect2.origin.x);
+  double max_y = fmax(rect1.origin.y, rect2.origin.y);
   
-  result.size.width = (fmax((rect1.origin.x + rect1.size.width), (rect2.origin.x + rect2.size.width))) - result.origin.x;
-  result.size.height = (fmax((rect1.origin.y + rect1.size.height), (rect2.origin.y + rect2.size.height))) - result.origin.y;
- 
-  return result;
+  return MKMapRectMake(min_x, min_y, max_x - min_x, max_y - min_y);
 }
 
 extern MKCoordinateRegion MKCoordinateRegionForMapRect(MKMapRect rect){
